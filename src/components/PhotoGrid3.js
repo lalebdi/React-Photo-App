@@ -4,7 +4,18 @@ export default class PhotoGrid3 extends Component {
     render() {
         return (
             <div>
-                
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
+                <div><img src={} className="photos" alt="random photos" /> </div>
             </div>
         )
     }
