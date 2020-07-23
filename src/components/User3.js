@@ -5,6 +5,9 @@ export default class User3 extends Component {
         return (
             <div>
                 <NavBar />
+                <aside className="side-bar">
+                    
+                </aside>
             </div>
         )
     }
