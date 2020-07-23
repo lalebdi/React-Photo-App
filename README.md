@@ -24,9 +24,10 @@ You will also see any lint errors in the console.
 ### `Big Ideas`
 
 Would love to implement the following:<br />
-1- FileStack so the user can upload photos. (https://www.filestack.com/)<br />
-2- Redux would be useful and beautiful for the app.<br />
-3- A local json host to save the data and change it.<br />
+1- FileStack so the user can upload photos and implemet Axios. (https://www.filestack.com/)<br />
+2- would love to have a form for logging in and validation (want to use Formik).<br />
+3- Redux would be useful and beautiful for the app.<br />
+4- A local json host to save the data and change it.<br />
 
 ### `Wireframe`
 
