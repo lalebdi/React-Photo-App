@@ -12,21 +12,21 @@ You will also see any lint errors in the console.
 
 ### `Initial Plan`
 
-- Create a home page. Inside, you will have a carosel of 3 cards displaying the profiles.
-- Each account will consist of 3 parts:
-    1- Profile info with the username and photo on the left side.
-    2- Navigation bar at the top.
-    3- Photo grid in the main body.
+- Create a home page. Inside, you will have a carosel of 3 cards displaying the profiles.<br />
+- Each account will consist of 3 parts:<br />
+    1- Profile info with the username and photo on the left side.<br />
+    2- Navigation bar at the top.<br />
+    3- Photo grid in the main body.<br />
 
-- When the user is logged in & out. Code it in the state (start with the false).
+- When the user is logged in & out. Code it in the state (start with the false).<br />
 
 
 ### `Big Ideas`
 
-Would love to implement the following:
-1- FileStack so the user can upload photos. (https://www.filestack.com/)
-2- Redux would be useful and beautiful for the app.
-3- A local json host to save the data and change it.
+Would love to implement the following:<br />
+1- FileStack so the user can upload photos. (https://www.filestack.com/)<br />
+2- Redux would be useful and beautiful for the app.<br />
+3- A local json host to save the data and change it.<br />
 
 ### `Wireframe`
 
