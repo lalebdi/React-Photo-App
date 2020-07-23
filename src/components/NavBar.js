@@ -14,7 +14,7 @@ import {
   NavbarText
 } from 'reactstrap';
 
-const Example = (props) => {
+const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
@@ -22,7 +22,7 @@ const Example = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">React Photo App</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -30,31 +30,29 @@ const Example = (props) => {
               <NavLink href="/components/">Components</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="https://github.com/reactstrap/reactstrap">Home</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
-                Options
+                Users
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
-                  Option 1
+                  Stewie
                 </DropdownItem>
                 <DropdownItem>
-                  Option 2
+                  Quagmire
                 </DropdownItem>
-                <DropdownItem divider />
                 <DropdownItem>
-                  Reset
+                  Brian
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     </div>
   );
 }
 
-export default Example;
+export default NavBar;
