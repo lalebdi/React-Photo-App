@@ -24,27 +24,27 @@ export default class Home extends Component {
                     <Card>
                         <CardImg top width="50%" src={stewieProfilePic} alt="Stewie Profile Picture" />
                         <CardBody>
-                            <CardTitle>Card title</CardTitle>
-                            <CardSubtitle>Card subtitle</CardSubtitle>
-                            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
+                            <CardTitle>Stewie</CardTitle>
+                            
+                            <CardText>A highly precocious infant who talks and acts as an adult. Wizard magazine rated him the 95th-greatest villain of all time.</CardText>
                             <Button>Login</Button>
                         </CardBody>
                     </Card>
                     <Card>
                         <CardImg top width="50%" src={QuagmireProfilePic} alt="Quagmire Profile Picture" />
                         <CardBody>
-                            <CardTitle>Card title</CardTitle>
-                            <CardSubtitle>Card subtitle</CardSubtitle>
-                            <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+                            <CardTitle>Quagmire</CardTitle>
+
+                            <CardText>An appalling human being who is still caught in the Rat Pack era, based on anachronistic 1950s party-animal clichés.</CardText>
                             <Button>Login</Button>
                         </CardBody>
                     </Card>
                     <Card>
                         <CardImg top width="50%" src={BrianProfilePic} alt="Brian Profile Picture" />
                         <CardBody>
-                            <CardTitle>Card title</CardTitle>
-                            <CardSubtitle>Card subtitle</CardSubtitle>
-                            <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
+                            <CardTitle>Brian</CardTitle>
+                            
+                            <CardText>less-than-adept writer struggling to find himself, attempting essays, novels, screenplays, and newspaper articles.</CardText>
                             <Button>Login</Button>
                         </CardBody>
                     </Card>
