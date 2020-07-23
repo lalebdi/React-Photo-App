@@ -7,8 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
 
 ### `Initial Plan`
 
@@ -32,8 +31,13 @@ Would love to implement the following:<br />
 ### `Wireframe`
 
 
-![alt text](src/assets/images/structure)
+<img width="832" alt="structure" src="https://user-images.githubusercontent.com/67381036/88317597-7de6a280-cce7-11ea-86f2-836e53a7c7bc.png">
 
+
+<img width="851" alt="homePage" src="https://user-images.githubusercontent.com/67381036/88317646-935bcc80-cce7-11ea-8a0c-d50e6e41d922.png">
+
+
+<img width="839" alt="photoGrid" src="https://user-images.githubusercontent.com/67381036/88317675-a078bb80-cce7-11ea-9d42-a5a626acbc7d.png">
 
 
 <br />
