@@ -31,7 +31,8 @@ Would love to implement the following:<br />
 
 ### `Wireframe`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+![alt text](src/assets/images/structure)
 
 
 
