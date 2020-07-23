@@ -4,7 +4,7 @@ export default class User3 extends Component {
     render() {
         return (
             <div>
-                
+                <NavBar />
             </div>
         )
     }
