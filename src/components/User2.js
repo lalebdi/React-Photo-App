@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
+import PhotoGrid2 from './PhotoGrid2';
 
 export default class User2 extends Component {
     render() {
@@ -14,7 +15,7 @@ export default class User2 extends Component {
                 </aside>
 
                 <div>
-
+                    <PhotoGrid2 />
                 </div>
             </div>
         )
