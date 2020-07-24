@@ -20,7 +20,7 @@ const NavBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
+    <div className="nav-bar">
       <Navbar color="light" light expand="md">
         <NavbarBrand href="/">React Photo App</NavbarBrand>
         <NavbarToggler onClick={toggle} />
