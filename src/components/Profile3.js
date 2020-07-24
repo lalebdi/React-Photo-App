@@ -6,10 +6,10 @@ export default class Profile3 extends Component {
         return (
             <div className="side-profile">
                 <ListGroup>
-                    <ListGroupItem color="success">Cras justo odio</ListGroupItem>
-                    <ListGroupItem color="info">Dapibus ac facilisis in</ListGroupItem>
-                    <ListGroupItem color="warning">Morbi leo risus</ListGroupItem>
-                    <ListGroupItem color="danger">Porta ac consectetur ac</ListGroupItem>
+                    <ListGroupItem color="success">insert the photo here</ListGroupItem>
+                    <ListGroupItem color="info">insert the user name here</ListGroupItem>
+                    <ListGroupItem color="warning">insert the number of posts here</ListGroupItem>
+                    <ListGroupItem color="danger">insert the number of followers here</ListGroupItem>
                 </ListGroup>
             </div>
         )
