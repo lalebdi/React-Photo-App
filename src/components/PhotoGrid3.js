@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar';
 import {
     Card, Button, CardImg, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody
@@ -9,7 +8,7 @@ export default class PhotoGrid3 extends Component {
     render() {
         return (
             <div className="grid3-wrapper">
-                <NavBar />
+                
                 <div className="top-deck">
                 <CardDeck>
                     <Card>

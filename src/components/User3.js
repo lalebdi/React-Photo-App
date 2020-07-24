@@ -1,13 +1,21 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import NavBar from './NavBar';
 
 export default class User3 extends Component {
     render() {
         return (
             <div>
-                <NavBar />
+                <div>
+                    <NavBar />
+                </div>
+
                 <aside className="side-bar">
                     
                 </aside>
+                
+                <div>
+                    
+                </div>
             </div>
         )
     }
