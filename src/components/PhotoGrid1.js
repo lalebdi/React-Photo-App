@@ -11,7 +11,7 @@ export default class PhotoGrid1 extends Component {
                 <div className="top-deck">
                 <CardDeck>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo1.jpeg" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>
@@ -20,7 +20,7 @@ export default class PhotoGrid1 extends Component {
                         </CardBody>
                     </Card>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo2.jpg" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>
@@ -29,7 +29,7 @@ export default class PhotoGrid1 extends Component {
                         </CardBody>
                     </Card>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo3.JPG" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>
@@ -42,7 +42,7 @@ export default class PhotoGrid1 extends Component {
                                 <div className="middle-deck">
                                 <CardDeck>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo4.jpg" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>
@@ -51,7 +51,7 @@ export default class PhotoGrid1 extends Component {
                         </CardBody>
                     </Card>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo5.jpg" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>
@@ -60,7 +60,7 @@ export default class PhotoGrid1 extends Component {
                         </CardBody>
                     </Card>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo6.jpg" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>
@@ -73,7 +73,7 @@ export default class PhotoGrid1 extends Component {
                                 <div className="bottom-deck">
                                 <CardDeck>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo7.jpg" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>
@@ -82,7 +82,7 @@ export default class PhotoGrid1 extends Component {
                         </CardBody>
                     </Card>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo8.jpg" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>
@@ -91,7 +91,7 @@ export default class PhotoGrid1 extends Component {
                         </CardBody>
                     </Card>
                     <Card>
-                        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+                        <CardImg top width="100%" src="../assets/images/photoGrid/user-one/photo9.jpg" alt="Card image cap" />
                         <CardBody>
                         <CardTitle>Card title</CardTitle>
                         <CardSubtitle>Card subtitle</CardSubtitle>

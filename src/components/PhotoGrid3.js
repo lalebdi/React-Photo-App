@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {
     Card, Button, CardImg, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody
-  } from 'reactstrap';
+    } from 'reactstrap';
 
 export default class PhotoGrid3 extends Component {
     render() {
