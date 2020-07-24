@@ -21,7 +21,8 @@ export default class Home extends Component {
                 <NavBar />
                 <div className="profile-cards">
                 <CardDeck>
-                    <Card>
+                    
+                    <Card className="user-card">
                         <CardImg top width="50%" src={stewieProfilePic} alt="Stewie Profile Picture" />
                         <CardBody>
                             <CardTitle>Stewie</CardTitle>
@@ -30,7 +31,8 @@ export default class Home extends Component {
                             <Button>Login</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+            
+                    <Card className="user-card">
                         <CardImg top width="50%" src={QuagmireProfilePic} alt="Quagmire Profile Picture" />
                         <CardBody>
                             <CardTitle>Quagmire</CardTitle>
@@ -39,7 +41,7 @@ export default class Home extends Component {
                             <Button>Login</Button>
                         </CardBody>
                     </Card>
-                    <Card>
+                    <Card className="user-card">
                         <CardImg top width="50%" src={BrianProfilePic} alt="Brian Profile Picture" />
                         <CardBody>
                             <CardTitle>Brian</CardTitle>
