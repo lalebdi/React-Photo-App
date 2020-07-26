@@ -30,8 +30,8 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/" component={Home}>
+          <Home />
           </Route>
           <Route path="/users">
             <Users />
@@ -49,4 +49,4 @@ function App() {
 export default App;
 
 
-// <Home />
+// 
