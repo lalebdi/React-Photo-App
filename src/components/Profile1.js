@@ -8,7 +8,7 @@ export default class Profile1 extends Component {
             <div className="side-profile">
                 <ListGroup>
                     <br/>
-                    <ListGroupItem color="success"> <img src={Item1} alt="profile picute" classname="profile-pic"/> </ListGroupItem>
+                    <ListGroupItem color="success"> <img src={Item1} alt="profile picute" classname="profile-pic" width="50%" /> </ListGroupItem>
                     <br/>
                     <ListGroupItem color="info"> <strong> Stewie </strong> </ListGroupItem>
                     <br/>
