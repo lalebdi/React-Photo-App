@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem } from 'reactstrap';
+import Item3 from "../assets/images/BrianProfilePic.jpg"
 
 export default class Profile3 extends Component {
     render() {
@@ -7,13 +8,13 @@ export default class Profile3 extends Component {
             <div className="side-profile">
                 <ListGroup>
                     <br/>
-                    <ListGroupItem color="success">insert the photo here</ListGroupItem>
+                    <ListGroupItem color="success"> <img src={Item3} alt="profile picture" className="profile-pic"/></ListGroupItem>
                     <br/>
-                    <ListGroupItem color="info"></ListGroupItem>
+                    <ListGroupItem color="info"> <strong> Brain </strong> </ListGroupItem>
                     <br/>
-                    <ListGroupItem color="warning">insert the number of posts here</ListGroupItem>
+                    <ListGroupItem color="warning"> <strong> 8 Posts </strong> </ListGroupItem>
                     <br/>
-                    <ListGroupItem color="danger">insert the number of followers here</ListGroupItem>
+                    <ListGroupItem color="danger"> <strong>Bookmarked : </strong> </ListGroupItem>
                 </ListGroup>
             </div>
         )
