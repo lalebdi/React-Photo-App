@@ -9,7 +9,7 @@ export default class Profile3 extends Component {
                     <br/>
                     <ListGroupItem color="success">insert the photo here</ListGroupItem>
                     <br/>
-                    <ListGroupItem color="info">insert the user name here</ListGroupItem>
+                    <ListGroupItem color="info"></ListGroupItem>
                     <br/>
                     <ListGroupItem color="warning">insert the number of posts here</ListGroupItem>
                     <br/>

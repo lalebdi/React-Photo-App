@@ -9,11 +9,11 @@ export default class Profile2 extends Component {
                     <br/>
                     <ListGroupItem color="success">Profile photo here</ListGroupItem>
                     <br/>
-                    <ListGroupItem color="info">insert the user name here</ListGroupItem>
+                    <ListGroupItem color="info"> <strong> Quagmire </strong> </ListGroupItem>
                     <br/>
-                    <ListGroupItem color="warning">insert the number of posts here</ListGroupItem>
+                    <ListGroupItem color="warning"> <strong> 6 Posts </strong> </ListGroupItem>
                     <br/>
-                    <ListGroupItem color="danger">insert the number of followers here</ListGroupItem>
+                    <ListGroupItem color="danger"> <strong> Bookmarked : </strong> </ListGroupItem>
                 </ListGroup>
             </div>
         )
