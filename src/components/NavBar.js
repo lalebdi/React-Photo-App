@@ -27,12 +27,11 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
+            <NavLink>
             <NavItem>
-              <NavLink href="/components/">Components</NavLink>
+              <NavLink>Home</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">Home</NavLink>
-            </NavItem>
+            </NavLink>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Users
