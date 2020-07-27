@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import { NavLink } from "react-router-dom";
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,15 +38,21 @@ const NavBar = (props) => {
                 Users
               </DropdownToggle>
               <DropdownMenu right>
+                <NavLink>
                 <DropdownItem>
                   Stewie
                 </DropdownItem>
+                </NavLink>
+                <NavLink>
                 <DropdownItem>
                   Quagmire
                 </DropdownItem>
+                </NavLink>
+                <NavLink>
                 <DropdownItem>
                   Brian
                 </DropdownItem>
+                </NavLink>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
