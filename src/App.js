@@ -7,6 +7,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import User1 from './components/User1';
+import User2 from './components/User2';
+import User3 from './components/User3';
 
 function App() {
   return (
@@ -19,11 +22,11 @@ function App() {
           <Route  exact path="/" component={Home}>
           {/* <Home /> */}
           </Route>
-          <Route path="/user1">
+          <Route path="/user1" component={User1}>
           </Route>
-          <Route path="/user2">
+          <Route path="/user2" component={User2}>
           </Route>
-          <Route path="/user3">
+          <Route path="/user3" component={User3}>
           </Route>
         </Switch>
       </div>
