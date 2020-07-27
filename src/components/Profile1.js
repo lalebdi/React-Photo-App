@@ -9,7 +9,7 @@ export default class Profile1 extends Component {
                     <br/>
                     <ListGroupItem color="success">profile photo here</ListGroupItem>
                     <br/>
-                    <ListGroupItem color="info">the user name here</ListGroupItem>
+                    <ListGroupItem color="info"> <strong> Stewie </strong> </ListGroupItem>
                     <br/>
                     <ListGroupItem color="warning">number of posts here</ListGroupItem>
                     <br/>
