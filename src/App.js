@@ -17,13 +17,13 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route  exact path="/" component={Home}>
-          <Home />
+          {/* <Home /> */}
           </Route>
-          <Route path="/users">
-            {/* <Users /> */}
+          <Route path="/user1">
           </Route>
-          <Route path="/">
-            <Home />
+          <Route path="/user2">
+          </Route>
+          <Route path="/user3">
           </Route>
         </Switch>
       </div>

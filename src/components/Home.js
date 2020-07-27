@@ -29,7 +29,7 @@ export default class Home extends Component {
                             <CardTitle>Stewie</CardTitle>
                             
                             <CardText>A highly precocious infant who talks and acts as an adult. Wizard magazine rated him the 95th-greatest villain of all time.</CardText>
-                            <Link>
+                            <Link to="/user1">
                             <Button>Login</Button>
                             </Link>
                         </CardBody>
@@ -41,7 +41,7 @@ export default class Home extends Component {
                             <CardTitle>Quagmire</CardTitle>
 
                             <CardText>An appalling human being who is still caught in the Rat Pack era, based on anachronistic 1950s party-animal clichés.</CardText>
-                            <Link>
+                            <Link to="/user2">
                             <Button>Login</Button>
                             </Link>
                         </CardBody>
@@ -52,7 +52,7 @@ export default class Home extends Component {
                             <CardTitle>Brian</CardTitle>
                             
                             <CardText>less-than-adept writer struggling to find himself, attempting essays, novels, screenplays, and newspaper articles.</CardText>
-                            <Link>
+                            <Link to="/user3">
                             <Button>Login</Button>
                             </Link>
                         </CardBody>
