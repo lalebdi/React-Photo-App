@@ -7,6 +7,7 @@ import {
 import stewieProfilePic from '../assets/images/stewieProfilePic.jpg';
 import QuagmireProfilePic from '../assets/images/QuagmireProfilePic.png';
 import BrianProfilePic from '../assets/images/BrianProfilePic.jpg'
+import { Link } from 'react-router-dom';
 
 export default class Home extends Component {
     constructor(props){
@@ -28,7 +29,9 @@ export default class Home extends Component {
                             <CardTitle>Stewie</CardTitle>
                             
                             <CardText>A highly precocious infant who talks and acts as an adult. Wizard magazine rated him the 95th-greatest villain of all time.</CardText>
+                            <Link>
                             <Button>Login</Button>
+                            </Link>
                         </CardBody>
                     </Card>
             
@@ -38,7 +41,9 @@ export default class Home extends Component {
                             <CardTitle>Quagmire</CardTitle>
 
                             <CardText>An appalling human being who is still caught in the Rat Pack era, based on anachronistic 1950s party-animal clichés.</CardText>
+                            <Link>
                             <Button>Login</Button>
+                            </Link>
                         </CardBody>
                     </Card>
                     <Card className="user-card">
@@ -47,7 +52,9 @@ export default class Home extends Component {
                             <CardTitle>Brian</CardTitle>
                             
                             <CardText>less-than-adept writer struggling to find himself, attempting essays, novels, screenplays, and newspaper articles.</CardText>
+                            <Link>
                             <Button>Login</Button>
+                            </Link>
                         </CardBody>
                     </Card>
                     </CardDeck>

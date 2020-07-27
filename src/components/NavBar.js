@@ -41,21 +41,27 @@ const NavBar = (props) => {
                 Users
               </DropdownToggle>
               <DropdownMenu right>
-                <Link to={User1}>
+                
                 <DropdownItem>
+                <Link to="/user1">
                   Stewie
+                  </Link>
                 </DropdownItem>
-                </Link>
-                <Link to={User2}>
+                
+                
                 <DropdownItem>
+                <Link to="/user2">
                   Quagmire
+                  </Link>
                 </DropdownItem>
-                </Link>
-                <Link to={User3}>
+                
+                
                 <DropdownItem>
+                <Link to="/user3">
                   Brian
+                  </Link>
                 </DropdownItem>
-                </Link>
+                
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
