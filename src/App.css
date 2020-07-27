@@ -65,10 +65,20 @@
 
 }
 
+.body-of-user{
+  display: flex;
+  flex-direction: row;
+}
+
 .side-bar{
   background-image: url('./assets/images/profileInfoBackground.jpg');
+  width: 25%;
 }
 
 .side-profile{
   background-image: url('./assets/images/profileInfoBackground.jpg');
+}
+
+.user-photo-grid{
+  width: 75%;
 }
