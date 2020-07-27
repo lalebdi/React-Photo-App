@@ -15,7 +15,7 @@ export default class PhotoGrid2 extends Component {
                     <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo1.jpg" alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <CardSubtitle>Caption:</CardSubtitle>
                     <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                     <Button>Bookmark</Button>
                     </CardBody>
@@ -24,7 +24,7 @@ export default class PhotoGrid2 extends Component {
                     <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo2.jpg" alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <CardSubtitle>Caption:</CardSubtitle>
                     <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
                     <Button>Bookmark</Button>
                     </CardBody>
@@ -33,7 +33,7 @@ export default class PhotoGrid2 extends Component {
                     <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo3.jpg" alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <CardSubtitle>Caption:</CardSubtitle>
                     <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
                     <Button>Bookmark</Button>
                     </CardBody>
@@ -46,7 +46,7 @@ export default class PhotoGrid2 extends Component {
                     <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo4.jpg" alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <CardSubtitle>Caption:</CardSubtitle>
                     <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                     <Button>Bookmark</Button>
                     </CardBody>
@@ -55,7 +55,7 @@ export default class PhotoGrid2 extends Component {
                     <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo5.gif" alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <CardSubtitle>Caption:</CardSubtitle>
                     <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
                     <Button>Bookmark</Button>
                     </CardBody>
@@ -64,7 +64,7 @@ export default class PhotoGrid2 extends Component {
                     <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo6.jpeg" alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <CardSubtitle>Caption:</CardSubtitle>
                     <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
                     <Button>Bookmark</Button>
                     </CardBody>
@@ -77,7 +77,7 @@ export default class PhotoGrid2 extends Component {
                     <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo7.jpg" alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <CardSubtitle>Caption:</CardSubtitle>
                     <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
                     <Button>Bookmark</Button>
                     </CardBody>
@@ -86,7 +86,7 @@ export default class PhotoGrid2 extends Component {
                     <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo8.jpg" alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
-                    <CardSubtitle>Card subtitle</CardSubtitle>
+                    <CardSubtitle>Caption:</CardSubtitle>
                     <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
                     <Button>Bookmark</Button>
                     </CardBody>
