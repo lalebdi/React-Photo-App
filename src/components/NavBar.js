@@ -13,7 +13,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
-import { Link } from "react-router-dom";
+import { Link  } from "react-router-dom";
 import User3 from './User3';
 import User1 from './User1';
 import User2 from './User2';
@@ -31,7 +31,7 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <Link>
+            <Link to="./Home">
             <NavItem>
               <NavLink>Home</NavLink>
             </NavItem>
