@@ -20,7 +20,7 @@ function App() {
           <Home />
           </Route>
           <Route path="/users">
-            <Users />
+            {/* <Users /> */}
           </Route>
           <Route path="/">
             <Home />

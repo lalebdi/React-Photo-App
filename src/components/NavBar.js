@@ -13,7 +13,11 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import User3 from './User3';
+import User1 from './User1';
+import User2 from './User2';
+
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,31 +31,31 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavLink>
+            <Link>
             <NavItem>
               <NavLink>Home</NavLink>
             </NavItem>
-            </NavLink>
+            </Link>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Users
               </DropdownToggle>
               <DropdownMenu right>
-                <NavLink>
+                <Link to={User1}>
                 <DropdownItem>
                   Stewie
                 </DropdownItem>
-                </NavLink>
-                <NavLink>
+                </Link>
+                <Link to={User2}>
                 <DropdownItem>
                   Quagmire
                 </DropdownItem>
-                </NavLink>
-                <NavLink>
+                </Link>
+                <Link to={User3}>
                 <DropdownItem>
                   Brian
                 </DropdownItem>
-                </NavLink>
+                </Link>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
