@@ -31,7 +31,7 @@ const NavBar = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <Link to="./Home">
+            <Link to="/">
             <NavItem>
               <NavLink>Home</NavLink>
             </NavItem>
