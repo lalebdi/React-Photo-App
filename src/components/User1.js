@@ -4,6 +4,12 @@ import PhotoGrid1 from './PhotoGrid1';
 import Profile1 from './Profile1';
 
 export default class User1 extends Component {
+    constructor(prop){
+        super(props)
+        this.state={
+            
+        }
+    }
     render() {
         return (
             <div>
