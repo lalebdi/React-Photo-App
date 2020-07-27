@@ -7,16 +7,17 @@ export default class User3 extends Component {
     render() {
         return (
             <div>
-                <div>
+                <div className="nav-bar-div">
                     <NavBar />
                 </div>
-
+                <div className="body-of-user">
                 <aside className="side-bar">
                     <Profile3 />
                 </aside>
 
-                <div>
+                <div className="user-photo-grid">
                     <PhotoGrid3 />
+                </div>
                 </div>
             </div>
         )
