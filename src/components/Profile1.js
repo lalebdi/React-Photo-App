@@ -11,9 +11,9 @@ export default class Profile1 extends Component {
                     <br/>
                     <ListGroupItem color="info"> <strong> Stewie </strong> </ListGroupItem>
                     <br/>
-                    <ListGroupItem color="warning">number of posts here</ListGroupItem>
+                    <ListGroupItem color="warning"> <strong> 6 Posts </strong></ListGroupItem>
                     <br/>
-                    <ListGroupItem color="danger">number of followers here</ListGroupItem>
+                    <ListGroupItem color="danger"> <strong>Bookmarked: </strong> </ListGroupItem>
                 </ListGroup>
             </div>
         )
