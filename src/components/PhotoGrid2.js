@@ -3,6 +3,15 @@ import {
     Card, Button, CardImg, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody
     } from 'reactstrap';
+import Pic1 from '../assets/images/photoGrid/user-two/photo1.jpg';
+import Pic2 from '../assets/images/photoGrid/user-two/photo2.jpg';
+import Pic3 from '../assets/images/photoGrid/user-two/photo3.jpg';
+import Pic4 from '../assets/images/photoGrid/user-two/photo4.jpg';
+import Pic5 from '../assets/images/photoGrid/user-two/photo5.gif';
+import Pic6 from '../assets/images/photoGrid/user-two/photo6.jpeg';
+import Pic7 from '../assets/images/photoGrid/user-two/photo7.jpg';
+import Pic8 from '../assets/images/photoGrid/user-two/photo8.jpg';
+
 
 export default class PhotoGrid2 extends Component {
     render() {
@@ -12,7 +21,7 @@ export default class PhotoGrid2 extends Component {
                 <div className="top-deck">
                 <CardDeck>
                 <Card>
-                    <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo1.jpg" alt="Card image cap" />
+                    <CardImg top width="100%" src={Pic1} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
                     <CardSubtitle>Caption:</CardSubtitle>
@@ -21,7 +30,7 @@ export default class PhotoGrid2 extends Component {
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo2.jpg" alt="Card image cap" />
+                    <CardImg top width="100%" src={Pic2} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
                     <CardSubtitle>Caption:</CardSubtitle>
@@ -30,7 +39,7 @@ export default class PhotoGrid2 extends Component {
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo3.jpg" alt="Card image cap" />
+                    <CardImg top width="100%" src={Pic3} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
                     <CardSubtitle>Caption:</CardSubtitle>
@@ -43,7 +52,7 @@ export default class PhotoGrid2 extends Component {
                             <div className="middle-deck">
                             <CardDeck>
                 <Card>
-                    <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo4.jpg" alt="Card image cap" />
+                    <CardImg top width="100%" src={Pic4} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
                     <CardSubtitle>Caption:</CardSubtitle>
@@ -52,7 +61,7 @@ export default class PhotoGrid2 extends Component {
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo5.gif" alt="Card image cap" />
+                    <CardImg top width="100%" src={Pic5} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
                     <CardSubtitle>Caption:</CardSubtitle>
@@ -61,7 +70,7 @@ export default class PhotoGrid2 extends Component {
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo6.jpeg" alt="Card image cap" />
+                    <CardImg top width="100%" src={Pic6} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
                     <CardSubtitle>Caption:</CardSubtitle>
@@ -74,7 +83,7 @@ export default class PhotoGrid2 extends Component {
                             <div className="bottom-deck">
                             <CardDeck>
                 <Card>
-                    <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo7.jpg" alt="Card image cap" />
+                    <CardImg top width="100%" src={Pic7} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
                     <CardSubtitle>Caption:</CardSubtitle>
@@ -83,7 +92,7 @@ export default class PhotoGrid2 extends Component {
                     </CardBody>
                 </Card>
                 <Card>
-                    <CardImg top width="100%" src="../assets/images/photoGrid/user-two/photo8.jpg" alt="Card image cap" />
+                    <CardImg top width="100%" src={Pic8} alt="Card image cap" />
                     <CardBody>
                     <CardTitle>Likes : 129</CardTitle>
                     <CardSubtitle>Caption:</CardSubtitle>
