@@ -5,7 +5,7 @@ import Profile1 from './Profile1';
 
 export default class User1 extends Component {
     constructor(prop){
-        super(props)
+        super()
         this.state={
             
         }
